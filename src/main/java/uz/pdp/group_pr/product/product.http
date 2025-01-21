@@ -1,0 +1,22 @@
+###
+POST http://localhost:8080/products/add
+Content-Type: application/json
+
+{
+  "id": 0,
+  "name": "Olma",
+  "description": "Qizil",
+  "price": 2000.0
+}
+
+###
+GET http://localhost:8080/products/all
+
+###
+GET https://localhost:8080/products/{id}
+
+###
+PUT http://localhost:8080/products/update/{id}
+
+###
+DELETE https://localhost:8080/products/delete/{id}
